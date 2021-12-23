@@ -35,16 +35,16 @@
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/timeText"
-        android:hint="@string/timeStr"/>
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/mapText"
         android:id="@+id/toMapButton"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mapView"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
 
 </LinearLayout>
